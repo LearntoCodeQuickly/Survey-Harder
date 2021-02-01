@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="sh2stylesheet.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+            <div class="primary-container">
+                <header class="header-container">
+                <img class="head-logo" src="https://learntocodequickly.com/wp-content/uploads/2021/01/nakatomi-logo.png">
+                <h1 id="title">Is <span style="color: #BE2026">Die Hard</span> the Greatest Movie of All Time?</h1>
+                <p id="description" class="text-center">
+                  Amidst these uncertain times, we present a series of weighty and pressing questions to our fellow citizens for their consideration, seeking forthright responses for the advancement of knowledge and the betterment of mankind.
+                </p>
+              </header>
+            <form id="survey-form">
+            <label for="name-label" class="label-header">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..." required>
+            <label for="email-label" class="label-header">Email</label>
+            <input type="email" id="email" name="email" pattern=".+@globex.com" placeholder="Your email.." required>
+            <label for="dropdown" class="label-header">Which option below best describes your attitude towards the film?</label>
+            <select id="dropdown" name="dropdown">
+                <option disabled selected value>Please select an option:</option>
+                <option value="t-shirt">I sleep in a "Nakatomi Security" T-shirt.</option>
+                <option value="greatest">It is the greatest movie of all time.</option>
+                <option value="not-not">It is not not the greatest movie of all time.</option>
+                <option value="language">Language is just a collection of words and no words are capable of adequately describing my appreciation and reverence for this film.</option>
+                <option value="firstborn">I named my firstborn child after a character in this movie.</option>
+                <option value="wedding">My wedding cake was Nakatomi Tower with the groom on a licorice hose. </option>
+            </select>
+            <label for="number-label" class="label-header">How Many Times Do You Feel a Person Should Watch the Film Annually?</label>
+            <input type="number" id="number" name="number" size="number" min="365" max="21212121212121" placeholder="730">
+            <label for="radio" class="label-header">Would you recommend Die Hard to a friend?</label><p class="label">
+            <input type="radio" name="recommend" value="yes" checked>
+            <label>Yes</label></p>
+            <p class="label"><input type="radio" name="recommend" value="of-course">
+            <label>Of Course</label></p>
+            <p class="label"></p><input type="radio" name="recommend" value="friends">
+            <label>I am Only Friends With People Who Already Appreciate the Movie</label></p> 
+            <label for="checkbox" class="label-header">What would you improve about the movie?</label>
+            <p class="label"><label><input name="prefer" value="excuse" type="checkbox" class="input-checkbox" />Excuse me?</label></p>
+            <p class="label"> <label><input name="prefer" value="boyle" type="checkbox" class="input-checkbox" />Boyle, help me deal with this person.</label></p>
+            <p class="label"> <label><input name="prefer" value="no-improving" type="checkbox" class="input-checkbox" />There is no improving Die Hard.</label></p>
+            <p class="label"><label><input name="prefer" value="soap" type="checkbox" class="input-checkbox" />Go wash your mouth out with soap for asking this question.</label></p>
+            <p class="label"><label><input name="prefer" value="pinnacle" type="checkbox" class="input-checkbox" />This movie is the pinnacle of cinematic achievment.</label></p>
+            <p class="label"><label><input name="prefer" value="perfection" type="checkbox" class="input-checkbox" />Perfection by definition cannot be improved upon.</label></p>
+            <label for="textarea" class="label-header">Please submit a detailed explanation of all the reasons why you agree that Die Hard is the greatest film ever made.</label>
+            <textarea placeholder="We strongly suggest providing a response of 2,000 words minimum, excluding references and footnotes, AP Style preferred."></textarea></p>
+            <input id="submit" type="submit" value="Yippee Ki Yay">
+          </form>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
